@@ -1,0 +1,22 @@
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+POST request - 'archivoSolicitud' - File: LyM-TP2-202220.pdf - Path: /LyM-TP2-202220_3hVkFYQ.pdf
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+POST request - 'archivoSolicitud' - File: Laboratorio 4.pdf - Path: /Laboratorio%204.pdf
+GET (ALL) request - 'archivoSolicitud' 
+POST request - 'archivoSolicitud' - File: Laboratorio 4.pdf - Path: /Laboratorio%204.pdf
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+GET (ALL) request - 'archivoSolicitud' 
+GET request to MODIFY FILE - 'archivoSolicitud' - ID Object: 1
+POST request - 'archivoSolicitud' - File: LyM-TP2-202220.pdf - Path: /LyM-TP2-202220_m44v01u.pdf
+GET (ALL) request - 'archivoSolicitud' 
+GET request to MODIFY FILE - 'archivoSolicitud' - ID Object: 1

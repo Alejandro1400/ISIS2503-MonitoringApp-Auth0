@@ -1,0 +1,16 @@
+{% block content %}
+<h2>
+    Files
+</h2>
+<ul>
+{% for archivo in archivos_list %}
+    <li>{{ archivo.nombre }}</li>
+    <div>
+        <form action="{% url 'archivo' archivo.pk %}" method="post">
+            {% csrf_token %}
+            <button name="post_id" value="{{ archivo.id }}">Modify file</button>
+        </form>
+    </div>
+{% endfor %}
+</ul>
+{% endblock %}

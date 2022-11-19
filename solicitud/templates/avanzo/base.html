@@ -1,0 +1,16 @@
+{% block content %}
+  <h2>Upload</h2>
+  <meta name="referrer" content="no-referrer">
+  <div>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <input type="file" name="document">
+      <button type="submit">Upload file</button>
+    </form>
+  </div>
+<!--
+  {% if url %}
+    <p>Uploaded file: <a href="{{ url }}">{{ url }}</a></p>
+  {% endif %}
+-->
+{% endblock %}
