@@ -12,6 +12,20 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+LOGIN_URL = "/login/auth0" 
+LOGIN_REDIRECT_URL = "/" 
+LOGOUT_REDIRECT_URL = "https://syntax-error.auth0.com/v2/logout?returnTo=http%3A%2F%2F34.133.95.185:8080" 
+SOCIAL_AUTH_TRAILING_SLASH = False # Remove end slash from routes 
+SOCIAL_AUTH_AUTH0_DOMAIN = 'syntax-error.auth0.com' 
+SOCIAL_AUTH_AUTH0_KEY = '3AgsmFRAsuK42nWZVvLlVQV7abhicHGs' 
+SOCIAL_AUTH_AUTH0_SECRET = 'GFXtJkBX1c5CRXSK796HDvu22sGTgzQNPsgRyCBTfBXk7ppgksLd_WJbXMz7ti1P' 
+SOCIAL_AUTH_AUTH0_SCOPE = [ 'openid', 
+                            'profile',
+                            'email',
+                            'role', ] 
+AUTHENTICATION_BACKENDS = { 'monitoring.auth0backend.Auth0', 
+                            'django.contrib.auth.backends.ModelBackend',
+                        }
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -38,6 +52,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'social_django',
     'solicitud',
 ]
 
